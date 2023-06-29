@@ -26,8 +26,8 @@ public class veifyAccServices extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		LOG=new LogInPage(driver);
-	  //  LOG.entreUser().sendKeys(VrifyRegester.username);
-	    LOG.entreUser().sendKeys(Constant.Username);
+	    LOG.entreUser().sendKeys(VrifyRegester.username);
+	   // LOG.entreUser().sendKeys(Constant.Username);
 	    LOG.entrePass().sendKeys(Constant.Password);
 	    LOG.clickSubmit().click();
 	    
@@ -120,11 +120,13 @@ public class veifyAccServices extends BaseClass {
 		 String exp6="Bill Payment Complete";
 		  assertions.assertEquals(act, exp, "payment not complete");
 		  
-	//trancferfund		  
+	//trancferfund
+		  
 			 AS.clickTransferFunds().click();
-			 Thread.sleep(1000);
-			 AS.ammount().sendKeys("1000");
 			 Thread.sleep(2000);
+
+			 AS.ammount().sendKeys("1000");
+			 Thread.sleep(4000);
 			 Select fromacnt = new Select(AS.frmacnt());
 			 fromacnt.selectByIndex(0); 
 			 Select toacnt = new Select(AS.toacnt());

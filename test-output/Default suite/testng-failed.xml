@@ -5,8 +5,9 @@
     <classes>
       <class name="TestCases.veifyAccServices">
         <methods>
-          <include name="LaunchBrowser"/>
-          <include name="quitBrowser"/>
+          <include name="ExtentReport"/>
+          <include name="endReport"/>
+          <include name="launchbrowser"/>
           <include name="Login"/>
         </methods>
       </class> <!-- TestCases.veifyAccServices -->

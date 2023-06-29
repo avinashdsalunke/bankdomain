@@ -1,52 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-29T12:48:26 IST" name="Suite" finished-at="2023-06-29T12:52:23 IST" duration-ms="237543">
+  <suite started-at="2023-06-29T16:29:44 IST" name="Suite" finished-at="2023-06-29T16:32:11 IST" duration-ms="147315">
     <groups>
     </groups>
-    <test started-at="2023-06-29T12:48:26 IST" name="Test" finished-at="2023-06-29T12:52:23 IST" duration-ms="237543">
+    <test started-at="2023-06-29T16:29:44 IST" name="Test" finished-at="2023-06-29T16:32:11 IST" duration-ms="147315">
       <class name="TestCases.veifyAccServices">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestCases.veifyAccServices@595b007d]" started-at="2023-06-29T12:49:30 IST" name="LaunchBrowser" finished-at="2023-06-29T12:50:00 IST" duration-ms="30870" status="PASS">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.veifyAccServices@c8c12ac]" started-at="2023-06-29T16:30:25 IST" name="launchbrowser" finished-at="2023-06-29T16:30:44 IST" duration-ms="19901" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="Login()[pri:0, instance:TestCases.veifyAccServices@595b007d]" started-at="2023-06-29T12:50:00 IST" name="Login" finished-at="2023-06-29T12:52:23 IST" duration-ms="142685" status="PASS">
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="Login()[pri:0, instance:TestCases.veifyAccServices@c8c12ac]" started-at="2023-06-29T16:30:44 IST" name="Login" finished-at="2023-06-29T16:32:10 IST" duration-ms="85396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.veifyAccServices@595b007d]" started-at="2023-06-29T12:52:23 IST" name="quitBrowser" finished-at="2023-06-29T12:52:23 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
       </class> <!-- TestCases.veifyAccServices -->
       <class name="TestCases.VrifyRegester">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestCases.VrifyRegester@f5ac9e4]" started-at="2023-06-29T12:48:26 IST" name="LaunchBrowser" finished-at="2023-06-29T12:48:45 IST" duration-ms="19045" status="PASS">
+        <test-method is-config="true" signature="ExtentReport()[pri:0, instance:TestCases.VrifyRegester@36bc55de]" started-at="2023-06-29T16:29:44 IST" name="ExtentReport" finished-at="2023-06-29T16:29:45 IST" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="Regester()[pri:0, instance:TestCases.VrifyRegester@f5ac9e4]" started-at="2023-06-29T12:48:45 IST" name="Regester" finished-at="2023-06-29T12:48:51 IST" duration-ms="6197" status="PASS">
+        </test-method> <!-- ExtentReport -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.VrifyRegester@36bc55de]" started-at="2023-06-29T16:29:45 IST" name="launchbrowser" finished-at="2023-06-29T16:29:58 IST" duration-ms="12995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="Regester()[pri:0, instance:TestCases.VrifyRegester@36bc55de]" started-at="2023-06-29T16:29:58 IST" name="Regester" finished-at="2023-06-29T16:30:05 IST" duration-ms="7801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Regester -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.VrifyRegester@f5ac9e4]" started-at="2023-06-29T12:48:51 IST" name="quitBrowser" finished-at="2023-06-29T12:48:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.VrifyRegester@36bc55de]" started-at="2023-06-29T16:32:10 IST" name="endReport" finished-at="2023-06-29T16:32:11 IST" duration-ms="1153" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitBrowser -->
+        </test-method> <!-- endReport -->
       </class> <!-- TestCases.VrifyRegester -->
       <class name="TestCases.VerifyLogIn">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestCases.VerifyLogIn@5158b42f]" started-at="2023-06-29T12:48:51 IST" name="LaunchBrowser" finished-at="2023-06-29T12:49:08 IST" duration-ms="16516" status="PASS">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.VerifyLogIn@1623b78d]" started-at="2023-06-29T16:30:06 IST" name="launchbrowser" finished-at="2023-06-29T16:30:14 IST" duration-ms="8718" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="Login()[pri:1, instance:TestCases.VerifyLogIn@5158b42f]" started-at="2023-06-29T12:49:08 IST" name="Login" finished-at="2023-06-29T12:49:30 IST" duration-ms="22108" status="PASS">
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="Login()[pri:1, instance:TestCases.VerifyLogIn@1623b78d]" started-at="2023-06-29T16:30:14 IST" name="Login" finished-at="2023-06-29T16:30:25 IST" duration-ms="10350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestCases.VerifyLogIn@5158b42f]" started-at="2023-06-29T12:49:30 IST" name="quitBrowser" finished-at="2023-06-29T12:49:30 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
       </class> <!-- TestCases.VerifyLogIn -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
