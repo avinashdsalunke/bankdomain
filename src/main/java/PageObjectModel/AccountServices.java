@@ -284,6 +284,9 @@ public class AccountServices {
 		public WebElement billvalid() {
 			return driver.findElement(billvalid);
 		}
+		public WebElement Amm() {
+			return driver.findElement(Amm);
+		}
 	
 	}
 

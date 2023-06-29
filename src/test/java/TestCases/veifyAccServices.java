@@ -79,6 +79,7 @@ public class veifyAccServices extends BaseClass {
 		 AS.state1().sendKeys("UP");
 		 AS.zipcode1().sendKeys("146233");
 		 AS.phonenumber1().sendKeys("7854569845");
+		 Thread.sleep(2000);
 		 AS.updateprofile().click();
 		 String act4=AS.updatevalid().getText();
 		 String exp4="Your updated address and phone number have been added to the system. ";
@@ -109,7 +110,7 @@ public class veifyAccServices extends BaseClass {
 		 AS.payeeAccNo().sendKeys("16089");
 		 AS.payeeveriAcc().sendKeys("16089");
 		 Thread.sleep(1000);
-		 AS.ammount().sendKeys(Constant.Ammount);
+		 AS.Amm().sendKeys(Constant.Ammount);
 		 Select accountfrm = new Select(AS.accountfrm());
 		 accountfrm.selectByIndex(0);
 		
@@ -121,6 +122,7 @@ public class veifyAccServices extends BaseClass {
 		  
 	//trancferfund		  
 			 AS.clickTransferFunds().click();
+			 Thread.sleep(1000);
 			 AS.ammount().sendKeys("1000");
 			 Thread.sleep(2000);
 			 Select fromacnt = new Select(AS.frmacnt());
