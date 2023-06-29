@@ -39,7 +39,7 @@ public class veifyAccServices extends BaseClass {
 		 dropdown.selectByVisibleText("SAVINGS"); 
 		 Select dropdown1 = new Select(AS.selectaccountnumber());
 		 dropdown1.selectByIndex(0);
-		 Thread.sleep(2000);
+		 Thread.sleep(3000);
 		 AS.opennewaccountclk().click();
 		 String act=AS.validopennewacnt().getText();
 		 String exp="Congratulations, your account is now open.";
